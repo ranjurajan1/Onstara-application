@@ -18,13 +18,13 @@ Future<void> main() async {
     if (user == null) {
       runApp(const MaterialApp(
         //here given the name=============>
-        home: HomeScreen(),
+        home: SignIn(),
         //HomeScreen ()
         debugShowCheckedModeBanner: false,
       ));
     } else {
       runApp(const MaterialApp(
-        home:SignIn() ,
+        home:HomeScreen(),
         debugShowCheckedModeBanner: false,
       ));
     }

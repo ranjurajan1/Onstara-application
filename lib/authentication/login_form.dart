@@ -83,6 +83,7 @@ class _SignInState extends State<SignIn> {
      );
      await FirebaseAuth.instance.signInWithCredential(credential);
      await _googleSignIn.signOut();
+     Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => HomeScreen()), (route) => false);
    } on FirebaseAuthException catch (e) {
      print(e.message);
      throw e;
@@ -255,7 +256,7 @@ class _SignInState extends State<SignIn> {
 
                 GestureDetector(
                   onTap: (){
-
+                    signInwithGoogle();
                   },
 
                   ///======================================================================================================>
