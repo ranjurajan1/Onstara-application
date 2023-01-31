@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "372461374269",
+    "project_id": "onstar-application",
+    "storage_bucket": "onstar-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372461374269:android:bc5b21e6908c32c9f1d354",
+        "android_client_info": {
+          "package_name": "com.example.onstaraapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372461374269-jlsethn9r7pms4i5kehg9lk5lm6b6nkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onstaraapplication",
+            "certificate_hash": "78c65e1005a8e4476be157c970fe2c40d69c1776"
+          }
+        },
+        {
+          "client_id": "372461374269-mddr6datjfg2aetrvlapofjg6tbmd5o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjwZE_0b0ldEQ_aW4buhaOrdO9DwmaDW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372461374269-mddr6datjfg2aetrvlapofjg6tbmd5o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
